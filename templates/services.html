@@ -1,0 +1,171 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Servizi
+{% endblock %}
+
+{% block main %}
+
+<head>
+    <link href="/static/styles-test.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e661632638.js" crossorigin="anonymous"></script>
+</head>
+
+<h1 id="hd">Clicca sulle icone per vedere più informazioni</h1>
+<div class="serv-grid" id="sg">
+    <div id="sp">
+        <a href="#cambio-g">
+            <img src="/static/images/tire.png" id="round">
+            <h3>Cambio gomme</h3>
+            <div class="pr">
+                <h3>A partire da:</h3>
+                <h3>€12 a gomma</h3>
+            </div>
+        </a>
+    </div>
+    <div id="sp1">
+        <a href="#GPL">
+            <img src="/static/images/gpl.png" id="square">
+            <h3 id="ex">Impianti GPL</h3>
+        </a>
+    </div>
+    <div id="sp">
+        <a href="#tagliandi">
+            <img src="/static/images/tagliandi.png" id="round">
+            <h3>Tagliandi</h3>
+            <div class="pr">
+                <h3>A partire da:</h3>
+                <h3>€120</h3>
+            </div>
+        </a>
+    </div>
+    <div id="sp">
+        <a href="#cambio-f">
+            <img src="/static/images/breaks.png" id="round">
+            <h3>Cambio freni</h3>
+            <div class="pr">
+                <h3>A partire da:</h3>
+                <h3>€120</h3>
+            </div>
+        </a>
+    </div>
+    <div id="sp">
+        <a href="#cambio-fr">
+            <img src="/static/images/clutch.png" id="round">
+            <h3>Cambio frizione</h3>
+            <div class="pr">
+                <h3>A partire da:</h3>
+                <h3>€450</h3>
+            </div>
+        </a>
+    </div>
+    <div id="sp1">
+        <a href="#riparazioni">
+            <img src="/static/images/repairs.png" id="round">
+            <h3 id="ex">Riparazioni</h3>
+        </a>
+    </div>
+</div>
+<div class="line"></div>
+<div class="serv-gd">
+    <div>
+        <section id="cambio-g">
+            <h1>Cambio gomme</h1>
+            <p>Presso la nostra officina, offriamo un servizio di cambio pneumatici rapido e professionale. Che si tratti di pneumatici estivi, invernali o quattro stagioni, il nostro team di esperti è qui per consigliarvi la soluzione più adatta alle vostre esigenze. Effettuiamo controlli accurati su pressione, usura e allineamento per assicurarci che ogni pneumatico sia perfettamente installato.</p>
+            <p>A partire da: €12 a gomma</p>
+            <div id="gd">
+                <a href="#top">Inizio pagina</a>
+                <a href="/contact">Contattaci</a>
+            </div>
+        </section>
+    </div>
+    <div class="serv-img">
+        <img src="/static/images/change-tire.webp">
+    </div>
+</div>
+<hr class="line">
+<div class="serv-gd">
+    <div>
+        <section id="GPL">
+            <h1>Impianti GPL</h1>
+            <p>Presso la nostra officina meccanica, offriamo servizi specializzati di installazione e manutenzione di serbatoi GPL, garantendo sicurezza ed efficienza per il vostro veicolo. Verifichiamo l'integrità del serbatoio, delle valvole e delle tubazioni per prevenire qualsiasi tipo di perdita o malfunzionamento.</p>
+            <p>Installazione: a partire da €1300</p>
+            <p>Cambio serbatoio: a partire da €450</p>
+            <div id="gd">
+                <a href="#top">Inizio pagina</a>
+                <a href="/contact">Contattaci</a>
+            </div>
+        </section>
+    </div>
+    <div class="serv-img">
+        <img src="/static/images/GPL-install.avif">
+    </div>
+</div>
+<hr class="line">
+<div class="serv-gd">
+    <div>
+        <section id="tagliandi">
+            <h1>Tagliandi</h1>
+            <p>Presso la nostra officina, offriamo un servizio completo di tagliando, che include il controllo e la sostituzione di olio, filtri, candele e altri componenti essenziali. I nostri tecnici esperti utilizzano solo ricambi di alta qualità e attrezzature all'avanguardia per assicurare interventi precisi e affidabili.</p>
+            <p>A partire da: €120</p>
+            <div id="gd">
+                <a href="#top">Inizio pagina</a>
+                <a href="/contact">Contattaci</a>
+            </div>
+        </section>
+    </div>
+    <div class="serv-img">
+        <img src="/static/images/tagliand.jpeg">
+    </div>
+</div>
+<hr class="line">
+<div class="serv-gd">
+    <div>
+        <section id="cambio-f">
+            <h1>Cambio freni</h1>
+            <p>Presso la nostra officina, offriamo un servizio professionale di controllo e sostituzione dei freni, utilizzando solo componenti di alta qualità. I nostri tecnici esperti eseguono un'accurata ispezione di pastiglie, dischi e liquido dei freni, assicurandosi che ogni elemento funzioni perfettamente. Vi garantiamo un servizio rapido e affidabile per una guida sicura e tranquilla.</p>
+            <p>A partire da: €120</p>
+            <div id="gd">
+                <a href="#top">Inizio pagina</a>
+                <a href="/contact">Contattaci</a>
+            </div>
+        </section>
+    </div>
+    <div class="serv-img">
+        <img src="/static/images/brakepad-change.jpeg">
+    </div>
+</div>
+<hr class="line">
+<div class="serv-gd">
+    <div class="sec">
+        <section id="cambio-fr">
+            <h1>Cambio frizioni</h1>
+            <p>I nostri tecnici esperti effettuano diagnosi accurate per individuare eventuali segni di usura o malfunzionamenti, intervenendo con ricambi di alta qualità. Un controllo regolare della frizione aiuta a prevenire problemi maggiori e costosi, assicurando che il cambio di marcia sia sempre preciso e reattivo.</p>
+            <p>A partire da: €450</p>
+            <div id="gd">
+                <a href="#top">Inizio pagina</a>
+                <a href="/contact">Contattaci</a>
+            </div>
+        </section>
+    </div>
+    <div class="serv-img">
+        <img src="/static/images/clutch-change.jpeg">
+    </div>
+</div>
+<hr class="line">
+<div class="serv-gd">
+    <div>
+        <section id="riparazioni">
+            <h1>Riparazioni</h1>
+            <p>Presso la nostra officina, ci dedichiamo alla riparazione e manutenzione completa del vostro veicolo, assicurando che sia sempre in condizioni ottimali. I nostri tecnici qualificati sono pronti a intervenire su qualsiasi problema, dai piccoli guasti ai lavori di manutenzione ordinaria. Affidateci la cura della vostra auto: prenotate un controllo oggi stesso e sperimentate un servizio professionale e attento ai dettagli.</p>
+            <div id="gd">
+                <a href="#top">Inizio pagina</a>
+                <a href="/contact">Contattaci</a>
+            </div>
+        </section>
+    </div>
+    <div class="serv-img">
+        <img src="/static/images/riparazioni.avif">
+    </div>
+</div>
+{% endblock %}

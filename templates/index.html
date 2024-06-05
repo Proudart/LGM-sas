@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+<head>
+    <link href="/static/styles-test.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e661632638.js" crossorigin="anonymous"></script>
+</head>
+
+<!-- <div class="low-o-bg"> -->
+<div class="image">
+    <h1>La miglior assistenza per la vostra auto</h1><br>
+</div>
+<div class="grid">
+    <div class="img">
+        <img src="/static/images/lgm-logo.png">
+    </div>
+    <div class="content">
+        <div class="text-grid">
+            <h1>Autofficina LGM sas</h1>
+            <p>
+                L.G.M. è una autofficina e riparazioni auto attiva a Sesto San Giovanni, 
+                in provincia di Milano, che fornisce un'assistenza meccanica di alta qualità per ogni marca e modello di auto.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="image-1">
+    <div>
+        <h1>Interessato ai nostri servizi?</h1><br>
+        <form action="/contact" method="get">
+            <button class="btn">Richiedi un preventivo</button>
+        </form>
+    </div>
+</div>
+<div class="serv">
+    <h1>I nostri servizi</h1>
+</div>
+<div class="serv-grid">
+    <div id="sv">
+        <img src="/static/images/tire.png" id="round">
+        <h3>Cambio gomme</h3>
+        <a href="/services#cambio-g">
+            <button class="btn1"><i class="fa-solid fa-car"></i> informazioni</button>
+        </a>
+    </div>
+    <div id="sv">
+        <img src="/static/images/gpl.png" id="square">
+        <h3>Impianti GPL</h3>
+        <a href="/services#GPL">
+            <button class="btn1"><i class="fa-solid fa-car"></i> informazioni</button>
+        </a>
+    </div>
+    <div id="sv">
+        <img src="/static/images/tagliandi.png" id="round">
+        <h3>Tagliandi</h3>
+        <a href="/services#tagliandi">
+            <button class="btn1"><i class="fa-solid fa-car"></i> informazioni</button>
+        </a>
+    </div>
+    <div id="sv">
+        <img src="/static/images/breaks.png" id="round">
+        <h3>Cambio freni</h3>
+        <a href="/services#cambio-f">
+            <button class="btn1"><i class="fa-solid fa-car"></i> informazioni</button>
+        </a>
+    </div>
+    <div id="sv">
+        <img src="/static/images/clutch.png" id="round">
+        <h3>Cambio frizione</h3>
+        <a href="/services#cambio-fr">
+            <button class="btn1"><i class="fa-solid fa-car"></i> informazioni</button>
+        </a>
+    </div>
+    <div id="sv">
+        <img src="/static/images/repairs.png" id="round">
+        <h3>Riparazioni</h3>
+        <a href="/services#riparazioni">
+            <button class="btn1"><i class="fa-solid fa-car"></i> informazioni</button>
+        </a>
+    </div>
+</div>
+
+{% endblock %}

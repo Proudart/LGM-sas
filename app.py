@@ -4,7 +4,6 @@ from flask import Flask, render_template, request, session
 from dotenv import load_dotenv
 import datetime
 
-
 SENDER_EMAIL = 'work.address.lgm@gmail.com'
 RECEIVER_1 = 'work.address.lgm@gmail.com'
 RECEIVER_MAIN = 'lgmsasdi@gmail.com'
